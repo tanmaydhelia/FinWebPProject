@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tanmaydhelia.live/static/css/main.4f3ee7ee.css",
+    "main.js": "/tanmaydhelia.live/static/js/main.77fec339.js",
+    "static/media/brush.png": "/tanmaydhelia.live/static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "index.html": "/tanmaydhelia.live/index.html",
+    "main.4f3ee7ee.css.map": "/tanmaydhelia.live/static/css/main.4f3ee7ee.css.map",
+    "main.77fec339.js.map": "/tanmaydhelia.live/static/js/main.77fec339.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f3ee7ee.css",
+    "static/js/main.77fec339.js"
+  ]
+}
