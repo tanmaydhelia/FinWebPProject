@@ -7,7 +7,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="src/assets/linkedin.png" />
+        <img alt="linkedin-link" src="assets/linkedin.png" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -30,7 +30,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="instagram-link" src="../assets/instagram.png" />
+        <img alt="instagram-link" src="assets/instagram.png" />
       </a>
     </div>
   );
