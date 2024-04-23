@@ -25,8 +25,14 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          {/* Write different things for each project */}
+          {title === "Project 1" && "An App building Cohort where I learnt basic App Developement using Flutter"}
+          {title === "Project 2" && "A guided App Develeopment course where I created a social meda App using Flutter"}
+          {title === "Project 3" && "An E-commerce WebApp where I learnt how to integrate payment gateways in a Web based platform using ReactJs and NodeJs"}
+          {title === "Project 4" && "A design Course where I learnt basics and intermediate levels of FIGMA and Adobe XD"}
+          {title === "Project 5" && "A Hckathon App project where we made an optimized Food Ordering platform for Real-World Applications"}
+          {title === "Project 6" && "A Design Project for a Club where I learnt how to make a website using HTML, CSS and JavaScript"}
+          {title === "Project 7" && "A SASS project where we created a software to deploy stock analytics for a company"}
         </p>
       </div>
       <img src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -58,9 +64,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          I have been invlolved in a variety of projects ranging from personal to professional ones. Here are a glimpse of few of them.
         </p>
       </motion.div>
 
@@ -78,7 +82,7 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            BEAUTIFUL USER INTERFACES
+            WORKING + ENJOYING
           </div>
           <Project title="Project 1" />
           <Project title="Project 2" />
@@ -95,7 +99,7 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            SMOOTH USER EXPERIENCE
+            OPEN FOR NEW OPPORTUNITIES
           </div>
         </motion.div>
       </div>
