@@ -49,21 +49,7 @@ const MySkills = () => {
         </motion.div>
 
         <div className="mt-16 md:mt-0">
-        Currently I am pro-efficient in following tech-stacks:
-            <motion.div
-              className="flex mt-5 md:justify-start"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
-              variants={{
-                hidden: { opacity: 0, x: -50 },
-                visible: { opacity: 1, x: 0 },
-              }}
-            >
-              <TechStackIcons />
-            </motion.div>
-          {/* {isAboveLarge ? (
+          {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
               before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
@@ -76,7 +62,7 @@ const MySkills = () => {
             </div>
           ) : (
             <img alt="skills" className="z-10" src="assets/skills-image.png" />
-          )} */}
+          )}
         </div>
       </div>
 
